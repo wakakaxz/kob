@@ -1,7 +1,7 @@
 <!-- 游戏地图 -->
 <template>
     <div ref="parent" class="gamemap">
-        <canvas ref="canvas">
+        <canvas ref="canvas" tabindex="0">
         </canvas>
     </div>
 </template>
