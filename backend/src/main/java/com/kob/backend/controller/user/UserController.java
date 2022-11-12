@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("/user/")
 @RequiredArgsConstructor(onConstructor_={@Autowired})
 public class UserController {
     private final UserMapper userMapper;
